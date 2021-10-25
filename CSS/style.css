@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+*{
+    margin: 0;padding: 0;
+}
+:root{
+    --bg-color: #2874f0;
+}
+header{
+    background: var(--bg-color);
+    height: 8vh;
+    color: white;
+    
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    position: relative;
+    display: flex;
+    padding: 27px;
+    width: 9vw;
+}
+.logo img{
+    position: absolute;
+width: 10vw;
+top: 0%;
+}
+.menu a{
+    display: inline;
+    padding: 0px 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+a:hover{
+    color:blanchedalmond;
+    font-weight:bold;
+}
+#foot{
+    background-color: var(--bg-color);
+    height: 8vh;
+    color: white;
+}
+.container{
+    min-height: calc(100vh - 8vh - 8vh)
+}
+.search{
+    display: flex;
+    align-items: center;
+height: 4vh;
+position: relative;
+}
+.search img{
+    width:2vw;
+    position: absolute;
+left: 88%;
+cursor: pointer;
+}
+.search input{
+    width: 38vw;
+height: 4vh;
+margin: 0px 38px;
+border-radius: 8px;
+font-size: 18px;
+text-align: center;
+
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    margin: 15px 0px;
+}
+.carditems{
+width: 93vw;
+margin: 20px auto;
+}
+.carditems h2{
+    margin: 18px 24px;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+
+}
+.carditems img{
+    cursor: pointer;
+
+}
+.carditems img:hover{
+    box-shadow: 17px 0px 17px 8px #ccc;
+}
+.cards{
+    
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 24px;
+}
+p{
+    font-family: 'Merriweather', serif;
+}
